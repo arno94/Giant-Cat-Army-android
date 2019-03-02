@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:background="@drawable/app_name"
+        android:id="@+id/tv_name_game"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_quest_1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:clickable="false"
+                android:gravity="center"
+                android:text="2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="@color/orange" />
+
+            <TextView
+                android:id="@+id/tv_quest_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:clickable="false"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="10"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="@color/orange" />
+
+            <TextView
+                android:id="@+id/tv_quest_3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:clickable="false"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="14"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="@color/orange" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_numbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/tv_current_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_option_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_game_shape"
+            android:textColor="#ffffff"
+            android:text="+ 5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <Button
+            android:id="@+id/bt_option_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_game_shape"
+            android:textColor="#ffffff"
+            android:text="+ 7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <Button
+            android:id="@+id/bt_option_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_game_shape"
+            android:textColor="#ffffff"
+            android:text="\u221a"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_finish_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textSize="25sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/bt_restart"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_name_game"
+        android:background="@drawable/button_restart_shape"
+        android:layout_marginTop="50dp"
+        android:layout_margin="20dp"
+        />
+
+</RelativeLayout>

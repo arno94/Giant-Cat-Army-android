@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Giant Cat Army</string>
+    <string name="app_name_hun">Óriás macska hadsereg</string>
+    <string name="lose">Vereség</string>
+    <string name="lose_bigger_than_60">Sajnos vesztettél, mert a szám nagyobb 60-nál.</string>
+    <string name="lose_wrong_order">Sajnos vesztettél, mert rossz sorrendben adtad meg a kódot.</string>
+    <string name="lose_repeating_number">Sajnos vesztettél, mert a kapott szám már korábban szerepelt.</string>
+    <string name="lose_non_whole_number">Sajnos vesztettél, mert a kapott szám nem egész.</string>
+
+    <string name="win">Gratulálok, sikeresen teljesítetted feladatodat!</string>
+
+    <string name="quest">Dr Schrödinger kifejlesztette óriás macska hadseregét, hogy elpusztítsa a világot. Egy titkosügynökökből álló csapattal sikeresen bejutott a laborába, ahol azonban csapdába estetek.
+        \n\nA kijutáshoz egy vezérlőpanelre kell bevinni a 2, 10, 14 számokat ebben a sorrendben. De a panelen csak a \'+5\', \'+7\', és \'\u221a\' feliratú gombok működőképesek.
+        \n\n</string>
+
+    <string name="quest2">
+        A kijelzőn más számok is szerepelhetnek mindaddig, amíg:
+            \n\t- kétszer nem szerepel ugyanaz a szám;
+            \n\t- minden szám legfeljebb 60;
+            \n\t- minden szám egész.
+    </string>
+
+    <string name="quest3">
+        \n\nEllenkező esetben a szoba felrobban! Hogyan írod be a kódot, hogy a csapat kimenekülhessen, hogy megmentse a világot?
+    </string>
+</resources>
